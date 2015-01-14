@@ -1,0 +1,32 @@
+{
+  "name": "governor-work-rabbitmq",
+  "version": "0.0.0",
+  "description": "Retrieves work from rabbitMQ for a governor agent",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mrlannigan/governor-work-rabbitmq.git"
+  },
+  "keywords": [
+    "process",
+    "work",
+    "engine",
+    "governor",
+    "rabbitmq"
+  ],
+  "author": "Julian Lannigan <julian.lannigan@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mrlannigan/governor-work-rabbitmq/issues"
+  },
+  "homepage": "https://github.com/mrlannigan/governor-work-rabbitmq",
+  "dependencies": {
+    "bluebird": "^2.x.x",
+    "hoek-boom": "^1.x.x",
+    "amqplib": "^0.3.x",
+    "generic-pool": "^2.0.x"
+  }
+}
